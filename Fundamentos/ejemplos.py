@@ -16,6 +16,11 @@ def eliminarEspacios(valor):
 def arregloPalabras(valor):
     print(valor.split())
 
-def palabraDeArreglo():
+def palabraDeArreglo(valor):
     nombres=["Luis", "Angel", "Maria", "Angelica"]
     print("".join(nombres))
+
+def otrasFunciones(valor):
+    print(valor.replace("Python", "Luis Angel"))
+    print(valor.find("mundo"))
+    print(valor.count("Python"))
